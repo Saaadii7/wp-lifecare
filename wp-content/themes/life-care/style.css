@@ -1,0 +1,110 @@
+/*!
+Theme Name: life-care
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: life-care
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+life-care is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.top-bar-area .top-right .location li{
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main-menu .navigation > li.current-menu-item > a {
+  color: #2acb35;
+}
+
+#owl-demo .item {
+  padding: 15px 0px;
+}
+
+#owl-demo .doc-thumb {
+  display: block;
+  text-align: center;
+  background: #fff;
+  margin: 0px 15px;
+  padding: 50px 0px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+#owl-demo .doc-thumb .custom-icon-holder {
+  display: inline-block;
+  background: #2acb35;
+  width: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#owl-demo .doc-thumb .custom-icon-holder:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  border: 2px #fff dashed;
+}
+
+#owl-demo .doc-thumb .custom-icon-holder p {
+  padding: 0px 15px;
+  color: #404040;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#owl-demo .doc-thumb:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.27);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.27);
+}
+
+.doc-text-color, table tbody tr a {
+  color: #076f0f !important;
+}
+
+#owl-demo .doc-thumb a p{
+  color: #888888;
+}
+
+.appointment-box .form .input-box input[type="text"], .appointment-box .form .input-box input[type="email"]{
+  margin-bottom: 0;
+}
+
+.appointment-box .form .input-box{
+  margin-bottom: 30px;
+}
+
+.appointment-box .form input[type='submit']{
+  width: 100%;
+}
+
+.blog-single-area .author-box{
+  margin-bottom: 15px;
+}
